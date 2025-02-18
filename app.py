@@ -8,4 +8,4 @@ def home():
     return "Hello! This is your stock analysis web app running on Render!"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
